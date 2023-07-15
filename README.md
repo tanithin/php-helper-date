@@ -49,6 +49,8 @@ $builder = new Date([
 ]) ;
 ```
 
+The array key becomes the method prefix for Date(), Now(), DateTime() and Time() methods. Here the word "user" can be prefixed.
+
 ### Optionally create a static instance
 
 ```php
