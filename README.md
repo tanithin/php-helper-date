@@ -52,7 +52,6 @@ $builder = new Date([
 ### Optionally create a static instance
 
 ```php
-use Nexche\Helper\Date;
 $builder->persist() ;
 ```
 
