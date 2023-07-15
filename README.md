@@ -55,7 +55,7 @@ $builder = new Date([
 $builder->persist() ;
 ```
 
-### Retrieve formated values
+### Retrieve formatted current date time
 
 ```php
 echo $builder->userDate() ;
@@ -69,4 +69,21 @@ or
 echo Date::userDate() ;
 echo Date::userDatetime() ;
 echo Date::userTime() ;
+```
+
+
+### Retrieve formated given datetime
+
+```php
+echo $builder->userDate(time()) ;
+echo $builder->userDatetime(time()) ;
+echo $builder->userTime() ;
+```
+
+or
+
+```php
+echo Date::userDate(time()) ;
+echo Date::userDatetime(time()) ;
+echo Date::userTime(time()) ;
 ```
